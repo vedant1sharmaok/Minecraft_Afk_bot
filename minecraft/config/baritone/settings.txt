@@ -10,6 +10,14 @@ allowInventory false
 
 avoidance true
 freeLook true
+
+repathOnResume true
+allowOvershoot true
+
+movementTimeoutTicks 400
+failureTimeoutMS 120000
+goalBreakFromAbove false
+
 pathTimeoutMS 1200000
 maxFallHeightNoWater 4
 renderPath false
