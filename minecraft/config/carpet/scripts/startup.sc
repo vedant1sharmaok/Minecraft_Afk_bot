@@ -6,9 +6,9 @@ __config() -> {
 player_joined(player) -> (
   if(player == 'vedantiron',
     (
-      print('AFK bot joined, starting navigation');
+      print('AFK bot joined, initializing Baritone');
 
-      task(140, _start_main());
+      task(200, _start_main());
       task(200, _log_distance());
       task(6000, _periodic_check());
     )
@@ -21,7 +21,7 @@ _start_main() -> (
 );
 
 _fallback() -> (
-  print('Primary path failed, using fallback');
+  print('Using fallback coordinates');
   run('#stop');
   run('#goto -260 63 350');
 );
@@ -49,7 +49,6 @@ _periodic_check() -> (
 
 _log_distance() -> (
   pos = player('vedantiron');
-
   dx = pos.x + 265;
   dz = pos.z - 354;
   dist = sqrt(dx*dx + dz*dz);
