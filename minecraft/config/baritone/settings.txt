@@ -6,10 +6,10 @@ allowJumpAt256 true
 
 allowBreak false
 allowPlace false
+allowInventory false
 
 avoidance true
 freeLook true
-
-pathTimeoutMS 900000
+pathTimeoutMS 1200000
 maxFallHeightNoWater 4
 renderPath false
