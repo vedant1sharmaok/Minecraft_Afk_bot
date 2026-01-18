@@ -6,8 +6,8 @@ __config() -> {
 player_joined(player) -> (
   if(player == 'vedantiron',
     (
-      print('AFK bot joined, starting Baritone');
-      task(120, run('#goto -265 63 354'));
+      print('AFK bot joined, starting Baritone navigation');
+      task(140, run('#goto -265 63 354'));
     )
   )
 );
