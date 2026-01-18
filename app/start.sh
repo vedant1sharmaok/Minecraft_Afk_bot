@@ -8,7 +8,7 @@ mkdir -p logs
 # Start FastAPI health server
 uvicorn app.main:app \
   --host 0.0.0.0 \
-  --port 3000 \
+  --port 8000 \
   >> logs/health.log 2>&1 &
 
 # Headless display
