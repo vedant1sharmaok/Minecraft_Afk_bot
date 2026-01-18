@@ -1,0 +1,4 @@
+fullscreen:false
+renderDistance:8
+simulationDistance:8
+fov:70.0
