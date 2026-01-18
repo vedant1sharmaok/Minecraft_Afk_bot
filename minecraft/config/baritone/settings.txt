@@ -1,0 +1,15 @@
+allowSprint true
+allowParkour true
+allowSwimming true
+allowDiagonalDescend true
+allowJumpAt256 true
+
+allowBreak false
+allowPlace false
+
+avoidance true
+freeLook true
+
+pathTimeoutMS 900000
+maxFallHeightNoWater 4
+renderPath false
